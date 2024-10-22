@@ -23,6 +23,26 @@ export default function Button({ onClick }){
             transform: translateY(-5px);
             background-color: blue;
         }
+
+        @media (max-width:600px) {
+            width: 9rem;
+            font-size:1.5rem;
+        }
+
+        @media (max-width:400px) {
+            background-color: #B74794;
+            width:6.5rem;
+            height:3rem;
+            font-size: 1rem;
+        }
+
+        @media(max-width:350px) {
+        background-color: #B74794;
+        width:7rem;
+        height:2.5rem;
+        border-radius: 1.5rem;
+        font-size: 1rem;
+        }
 `;
     return(
         <Button onClick={onClick}>
