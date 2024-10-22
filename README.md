@@ -13,8 +13,8 @@ O objetivo deste projeto foi praticar o gerenciamento de estados a componentes f
 
 ### Demonstração:
 
-![Versão desktop 1](./../public/Gênio%20da%20Lâmpada1-1.png)
-![Versão desktop 2](./../public/Gênio-da-Lâmpada2.png)
+![Versão desktop 1](./src/assets/Gênio%20da%20Lâmpada1-1.png)
+![Versão desktop 2](./src/assets/Gênio-da-Lâmpada2.png)
 
-![Versão mobile 1](./../public/genio_mobile1.png)
-![Versão mobile 2](./../public/genio_mobile2.png)
+![Versão mobile 1](./src/assets/genio_mobile1.png)
+![Versão mobile 2](./src/assets/genio_mobile2.png)
