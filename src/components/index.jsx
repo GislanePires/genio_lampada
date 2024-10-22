@@ -4,8 +4,8 @@ import styled from "styled-components";
 export default function Button({ onClick }){
     const Button = styled.button`
     background-color: #007BFF;
-    width:22rem;
-    height:5rem;
+    width:18rem;
+    height:7rem;
     border: none;
     border-radius:2rem;
     font-family: "Sevillana", cursive;
@@ -26,7 +26,8 @@ export default function Button({ onClick }){
 
         @media (max-width:600px) {
             width: 9rem;
-            font-size:1.5rem;
+            height: 3rem;
+            font-size:1.3rem;
         }
 
         @media (max-width:400px) {

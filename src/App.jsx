@@ -16,6 +16,7 @@ const GlobalStyle = createGlobalStyle`
     background-repeat: content;
     background-size: cover;
     background-position:center;
+    height:100vh;
 
     @media (max-width:600px) {
 
@@ -76,7 +77,7 @@ display:flex;
 flex-direction: column;
 justify-content:center;
 align-items:center;
-min-height: 100vh;
+min-height: 90vh;
 min-width: 100%;
 
   @media (max-width:350px) {
@@ -88,7 +89,7 @@ min-width: 100%;
 
 const Imagem = styled.img`
 height:35rem;
-width: 35rem;
+width: 30rem;
 transition: all 0.8s ease;
         position: relative;
         overflow: hidden;
